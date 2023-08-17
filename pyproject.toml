@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "marksmanship-training"
+version = "0.1.0"
+description = ""
+authors = ["mokybrow <mokybrow@gmail.com>"]
+readme = "README.md"
+packages = [{include = "marksmanship_training"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
