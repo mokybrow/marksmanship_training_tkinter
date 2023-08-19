@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "marksmanship-training"
+name = "marksmanship-training-tkinter"
 version = "0.1.0"
 description = ""
-authors = ["mokybrow <mokybrow@gmail.com>"]
+authors = ["Mikhail Panin <mokybrow@gmail.com>"]
 readme = "README.md"
-packages = [{include = "marksmanship_training"}]
+packages = [{include = "marksmanship_training_tkinter"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
